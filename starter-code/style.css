@@ -1,0 +1,97 @@
+/* Björn H. Johnson */
+
+ /* * {
+   box-sizing: border-box;
+   border: 1px solid red;
+   clear: both;
+} */
+
+
+html {
+  background: #0025FF;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.logo img {
+  width: 140px;
+  margin-top: 55px;
+}
+
+.yearbook {
+  background-color: #0025ff;
+  display: flex;
+  width: 90%;
+  margin:auto;
+  max-width: 720px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  /*display:  inline-block;*/
+  background-color: #ffffff;
+  width: 170px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px #888888;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 150px;
+  padding: 0px;
+}
+
+.name {
+  /*font-family: "Courier New", Times, serif;*/
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 26px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .yearbook {
+    background-color: lime;
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .yearbook {
+    background-color: red;
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .yearbook {
+    background-color: yellow;
+    max-width: 708px;
+  }
+}
+/*MON 15:58*/
