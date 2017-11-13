@@ -76,21 +76,18 @@ header {
 
 @media (max-width: 600px) {
   .yearbook {
-    background-color: lime;
     max-width: 200px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
   .yearbook {
-    background-color: red;
     max-width: 360px;
   }
 }
 
 @media (min-width: 1025px) {
   .yearbook {
-    background-color: yellow;
     max-width: 708px;
   }
 }
